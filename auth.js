@@ -1,40 +1,34 @@
-import {
-
-signInWithEmailAndPassword
-
-}
-
+import { signInWithEmailAndPassword }
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
 
 import { auth }
-
 from "./firebase.js";
 
-window.login = async ()=>{
+window.login = async function(){
 
-const email =
-document.getElementById("email").value;
+    const email =
+    document.getElementById("email").value;
 
-const senha =
-document.getElementById("senha").value;
+    const senha =
+    document.getElementById("senha").value;
 
-try{
+    try{
 
-await signInWithEmailAndPassword(
-auth,
-email,
-senha
-);
+        await signInWithEmailAndPassword(
+            auth,
+            email,
+            senha
+        );
 
-window.location =
-"dashboard.html";
+        window.location.href =
+        "dashboard.html";
 
-}
-catch(e){
+    }
+    catch(error){
 
-document.getElementById("msg")
-.innerText = e.message;
+        document.getElementById("msg")
+        .innerHTML = error.message;
 
-}
+    }
 
 }
