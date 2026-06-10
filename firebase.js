@@ -1,28 +1,25 @@
 import { initializeApp }
-
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-app.js";
 
 import { getAuth }
-
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
 
 import { getFirestore }
-
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore.js";
 
 const firebaseConfig = {
 
-apiKey: "...",
+  apiKey: "AIzaSyCCMRfdzXlvFLBd9PW6iGGZ6vWgfeRpRS8",
 
-authDomain: "...",
+  authDomain: "rede-protegida-da-mulher.firebaseapp.com",
 
-projectId: "...",
+  projectId: "rede-protegida-da-mulher",
 
-storageBucket: "...",
+  storageBucket: "rede-protegida-da-mulher.firebasestorage.app",
 
-messagingSenderId: "...",
+  messagingSenderId: "828602886358",
 
-appId: "..."
+  appId: "1:828602886358:web:a00110b42d69b0aadcc177"
 
 };
 
