@@ -2,7 +2,7 @@ import { signInWithEmailAndPassword }
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
 
 import { auth }
-from "./firebase.js";
+from "../firebase/firebase.js";
 
 window.login = async function(){
 
