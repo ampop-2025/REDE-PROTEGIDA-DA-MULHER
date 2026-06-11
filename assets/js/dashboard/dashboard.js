@@ -22,7 +22,7 @@ auth
 
 }
 
-from "./firebase.js";
+from "../firebase/firebase.js";
 
 const map =
 
