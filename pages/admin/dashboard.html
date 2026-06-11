@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
-<title>ADMIN</title>
+
+<meta charset="UTF-8">
+
+<title>SAFE WOMAN</title>
+
+<link rel="stylesheet" href="assets/css/global.css">
+
 </head>
+
 <body>
 
-<h1>Dashboard Admin</h1>
+<div class="login-box">
+
+<h1>SAFE WOMAN</h1>
+
+<input
+id="email"
+type="email"
+placeholder="Email">
+
+<input
+id="senha"
+type="password"
+placeholder="Senha">
+
+<button onclick="login()">
+Entrar
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+<script type="module"
+src="assets/js/auth/auth.js">
+</script>
 
 </body>
+
 </html>
