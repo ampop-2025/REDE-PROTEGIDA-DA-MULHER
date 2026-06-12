@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
 
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Operadores</title>
+
+<link rel="stylesheet"
+href="../../assets/css/global.css">
+
+<link rel="stylesheet"
+href="../../assets/css/operadores.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h2>SAFE WOMAN</h2>
+
+<nav>
+
+<a href="dashboard.html">
+Dashboard
+</a>
+
+<a href="usuarios.html">
+Usuárias
+</a>
+
+<a href="operadores.html">
+Operadores
+</a>
+
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="form-card">
+
+<h3>Novo Usuário do Sistema</h3>
+
+<input
+id="nome"
+type="text"
+placeholder="Nome">
+
+<input
+id="email"
+type="email"
+placeholder="Email">
+
+<select id="tipo">
+
+<option value="operador">
+Operador
+</option>
+
+<option value="contato">
+Contato
+</option>
+
+</select>
+
+<button id="btnSalvar">
+
+Salvar
+
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+<div class="lista-card">
+
+<h3>Usuários do Sistema</h3>
+
+<div id="lista">
+
+Carregando...
+
+</div>
+
+</div>
+
+</div>
+
+<script type="module"
+src="../../assets/js/admin/operadores.js">
+</script>
+
+</body>
+
+</html>
