@@ -39,6 +39,17 @@ Entrar
 src="assets/js/auth/auth.js">
 </script>
 
+<script type="module">
+
+import {
+protegerPagina
+}
+from "../../assets/js/auth/permissoes.js";
+
+protegerPagina("admin");
+
+</script>
+  
 </body>
 
 </html>
