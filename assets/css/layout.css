@@ -177,3 +177,12 @@ font-weight:bold;
 margin-top:10px;
 
 }
+.menu a.active{
+
+background:#1e293b;
+
+border-left:4px solid #3b82f6;
+
+font-weight:bold;
+
+}
