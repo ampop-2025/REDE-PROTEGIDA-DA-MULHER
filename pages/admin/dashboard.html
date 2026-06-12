@@ -8,13 +8,10 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>SAFE WOMAN - Admin</title>
+<title>SAFE WOMAN</title>
 
 <link rel="stylesheet"
-href="../../assets/css/global.css">
-
-<link rel="stylesheet"
-href="../../assets/css/dashboard-admin.css">
+href="../../assets/css/layout.css">
 
 </head>
 
@@ -24,9 +21,13 @@ href="../../assets/css/dashboard-admin.css">
 
 <aside class="sidebar">
 
-<h2>SAFE WOMAN</h2>
+<div class="logo">
 
-<nav>
+SAFE WOMAN
+
+</div>
+
+<nav class="menu">
 
 <a href="dashboard.html">
 Dashboard
@@ -48,17 +49,33 @@ Dispositivos
 Configurações
 </a>
 
-<button id="logout">
+</nav>
+
+</aside>
+
+<div class="main">
+
+<header class="topbar">
+
+<div class="user-box">
+
+<span>
+Administrador
+</span>
+
+<button
+id="logout"
+class="logout">
 
 Sair
 
 </button>
 
-</nav>
+</div>
 
-</aside>
+</header>
 
-<main>
+<div class="content">
 
 <h1>Painel Administrativo</h1>
 
@@ -106,7 +123,9 @@ Sair
 
 </div>
 
-</main>
+</div>
+
+</div>
 
 </div>
 
