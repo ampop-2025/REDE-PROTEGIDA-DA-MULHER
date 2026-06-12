@@ -11,15 +11,15 @@ signOut
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-auth.js";
 
 import {
-
+  
 doc,
 setDoc,
+updateDoc,
 collection,
+getDocs,
 onSnapshot,
 serverTimestamp
-
 }
-
 from "https://www.gstatic.com/firebasejs/12.2.1/firebase-firestore.js";
 
 document
