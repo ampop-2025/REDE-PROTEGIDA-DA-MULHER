@@ -104,6 +104,8 @@ altitude:0,
 
 usuarioId:"",
 
+usuarioNome:"",
+
 ultimaAtualizacao:
 serverTimestamp()
 
